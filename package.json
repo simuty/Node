@@ -1,0 +1,18 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "express project",
+  "main": "app.js",
+  "scripts": {
+    "test": "hotnode app.js"
+  },
+  "author": "51code",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "path": "^0.12.7"
+  }
+}
