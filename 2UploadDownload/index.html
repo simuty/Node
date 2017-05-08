@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<!-- //上传文件时需要通过enctype
+属性将编码方式设置为multipart/form-data -->
+    <form action="/upload", enctype="multipart/form-data" method="post">
+        <input type="file" name="upload" multiple="multipart">
+        <input type="submit" value="提交">
+    </form>
+
+<form action="/download", enctype="multipart/form-data" method="get">
+        <input type="submit" value='下载'>
+    </form>
+
+
+</body>
+</html>
