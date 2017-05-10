@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#files").on("change",function (e) {
+                $.each(this.files,function (k,v) {
+                    console.log(v.type+"="+v.webkitRelativePath);
+                });
+            });
+        })
+
+    </script>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data" action="/uploads">
+    <input type="file" id="files" name="upload" webkitdirectory mozdirectory>
+    <input type="submit" value="确认上传文件夹">
+</form>
+
+</body>
+</html>
