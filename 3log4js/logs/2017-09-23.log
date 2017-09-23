@@ -1,0 +1,22 @@
+[2017-09-23 20:34:22.804] [WARN] index - This is an index page! -- log4js
+[2017-09-23 20:34:22.807] [ERROR] index - This is an index page! -- log4js
+[2017-09-23 20:34:22.808] [FATAL] index - This is an index page! -- log4js
+[2017-09-23 20:34:23.212] [DEBUG] logInfo - GET / 304
+[2017-09-23 20:34:23.237] [DEBUG] logInfo - GET /stylesheets/style.css 304
+[2017-09-23 20:40:05.860] [WARN] index - This is an index page! -- log4js
+[2017-09-23 20:40:05.863] [ERROR] index - This is an index page! -- log4js
+[2017-09-23 20:40:05.864] [FATAL] index - This is an index page! -- log4js
+[2017-09-23 20:40:06.265] [DEBUG] logInfo - GET / 200
+[2017-09-23 20:40:06.297] [DEBUG] logInfo - GET /stylesheets/style.css 304
+[2017-09-23 20:40:52.865] [INFO] console - This is an index page!
+[2017-09-23 20:40:52.867] [WARN] index - This is an index page! -- log4js
+[2017-09-23 20:40:52.868] [ERROR] index - This is an index page! -- log4js
+[2017-09-23 20:40:52.868] [FATAL] index - This is an index page! -- log4js
+[2017-09-23 20:40:53.168] [DEBUG] logInfo - GET / 304
+[2017-09-23 20:40:53.189] [DEBUG] logInfo - GET /stylesheets/style.css 304
+[2017-09-23 20:58:54.653] [INFO] console - This is an index page!
+[2017-09-23 20:58:54.656] [WARN] index.js - This is an index page! -- log4js
+[2017-09-23 20:58:54.657] [ERROR] index.js - This is an index page! -- log4js
+[2017-09-23 20:58:54.658] [FATAL] index.js - This is an index page! -- log4js
+[2017-09-23 20:58:55.083] [DEBUG] logInfo - GET / 304
+[2017-09-23 20:58:55.096] [DEBUG] logInfo - GET /stylesheets/style.css 304
